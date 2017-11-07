@@ -1,0 +1,256 @@
+
+body {
+	 
+	background-image: url('images/pattern.svg');
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+.forma {
+	position: fixed;
+}
+#container {
+	width:70%;
+	margin-left: 15%;
+	
+}
+
+.logo {
+	
+	
+	font-family: 'Trebuchet MS', sans-serif;
+	letter-spacing: -0.03em;
+	float: left;
+	font-weight: 700; 
+	margin-left: 5px;
+	font-size: 2rem; 
+	padding: 10px 0 10px 0;
+	
+}
+.highlighted {
+	background-color: var(--main-text-color);
+	padding: 10px;
+	font-size: 20px;
+}
+.logopic {
+	border: 3px solid var(--main);
+	border-radius: 12px;
+	
+	margin: auto;
+	font-size: 3rem; 
+	text-align: center;
+}
+.logopic:hover {
+	background-color: var(--main-text-color);
+}
+
+.poruka p {
+	font-size: 10px;
+	
+
+}
+.logo p {
+	margin-bottom: -10px;
+	font-size: 1rem;
+}
+.name {
+	color: var(--main);
+}
+.poruka{
+	width: 400px;
+	color: var(--main-text-color);
+	float: right;
+	text-align: right;
+}
+.tel {
+	font-size: 20px;
+	
+}
+.tel:hover {
+	background-color: var(--main);
+}
+.bannerwrap {
+	width: 100%;
+	height: 200px;
+	
+	margin-top: 10px;
+	
+	overflow: hidden;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/banner.jpg');
+	transition: all 12s;
+	padding-left:12%; 
+	
+
+}
+.word {
+	
+	color: white;
+	
+	background-color: rgba(0,0,0,0);
+	padding: 6% 0 0 2%;
+	text-align: left;
+	font-size: 40px;
+	transition: visibility 2s;
+    visibility: hidden;
+}
+.show {
+	color: white;
+}
+.animate {
+	transform: scale(1.3);
+}
+.nav {
+	
+	min-width: 70%; 
+	border: 1px solid var(--main-text-color);
+	border-left: 0;
+	border-right: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.navsub {
+	
+	letter-spacing: 0.05em;
+	padding: 10px 0;
+}
+.navsub:hover {
+	background-color: var(--main-text-color);
+}
+.content {
+	width: 100%;
+	font-weight: 500;
+	background-color: white;
+	color: black;
+	padding-bottom: 30px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.textarea {
+	width: 50%;
+	
+	padding: 20px 0 20px 40px;
+	text-align: justify;
+}
+p {
+	padding: 3px 0;
+}
+.sideinfo {
+	font-size: 14px;
+	width:32%;
+	
+
+}
+.sidekontakt {
+	background-color: var(--main);
+	padding: 5px 10px;
+	color: white;
+	margin: 30px 0;
+	letter-spacing: 0.1em;
+}
+#map {
+	width: 100%;
+	height: 270px;
+
+}
+.footer {
+	width: 100%;
+	
+	margin-top: 20px;
+	clear: both;
+	font-size: 10px;
+}
+
+
+.nav2 {
+	width: 65%;
+	max-height: 260px;
+	border: 1px solid var(--main-text-color);
+	border-left: 0;
+	border-right: 0;
+	
+	padding: 10px 0;
+	display: flex;
+	
+	float: right;
+}
+.navsub {
+	flex: 1;
+	text-align: center;
+	flex-wrap: wrap;
+	letter-spacing: 0.05em;
+
+}
+.down {
+	width: 60%;
+	float: right;
+	margin-bottom: 30px;
+	text-align: right;
+	margin-top: 20px;
+}
+@media (max-width: 1080px) {
+	body {
+		
+	}
+	.nav {
+		flex-flow: column;
+		font-size: 3rem;
+	}
+	.navsub {
+		flex: 1;
+		
+	}
+	#container {
+		width: 100%;
+		margin: auto;
+	}
+	.content {
+		flex-flow: column;
+		margin: auto;
+	}
+	
+	.textarea {
+	width: 90%;
+
+	}
+	.sideinfo {
+	margin: auto;
+	width:90%;
+    }
+    .bannerwrap {
+    	height: 360px;
+    }
+    .word {
+    font-size: 60px;
+	}
+	#map {
+		height: 800px;
+	}
+	.tel{
+		font-size: 40px;
+	}
+	.logo {
+		font-size: 4rem;
+	}
+	.logopic {
+		font-size: 7rem;
+	}
+	.logo p{
+		font-size: 2rem;
+		margin-bottom: -20px;
+	}
+	
+	.poruka p {
+		font-size: 20px;
+	}
+	.nav2 {
+		width: 100%;
+	}
+	.down {
+		width: 100%;
+		font-size: 35px;
+	}
+}
